@@ -21,7 +21,7 @@ var param = process.argv[2];
 console.log('Checking Nomor Resi: ' + param);
 var horseman = new Horseman();
 	horseman
-	.userAgent("Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0")
+	.userAgent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.3")
 	.open('http://cekresi.com/?noresi='+param)
 	.click("#cekresi")
 	.waitForSelector('#results table')
