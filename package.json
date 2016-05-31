@@ -1,0 +1,34 @@
+{
+  "name": "cekresi-cli",
+  "version": "1.0.1",
+  "description": "A command line app to check tracking number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipanardian/cekresi-cli.git"
+  },
+  "keywords": [
+    "cek",
+    "resi",
+    "cek",
+    "awb",
+    "tracking",
+    "number",
+    "cli"
+  ],
+  "author": "Ipan Ardian",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ipanardian/cekresi-cli/issues"
+  },
+  "homepage": "https://github.com/ipanardian/cekresi-cli#readme",
+  "dependencies": {
+    "node-horseman": "^3.0.1",
+    "cheerio": "^0.20.0",
+    "tabletojson": "^0.4.0"
+  }
+}
