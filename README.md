@@ -10,6 +10,6 @@ Note: Make sure PhantomJS is available in your path
 
 ## How to Install
 ```
-npm install cekresi-cli
+npm install -g cekresi-cli
 ```
 
