@@ -3,9 +3,9 @@
 *  Cek Resi CLI
 *  (c) 2016 Ipan Ardian
 *
-*  A command line app to check tracking number 
+*  A command line app to tracking AWB number 
 *  For details, see the web site: https://github.com/ipanardian/cekresi-cli
-*  Apache License 2.0
+*  The MIT License
 */
 'use strict'
 
@@ -78,4 +78,8 @@ var horseman = new Horseman();
 		}
 		console.log('\nFor details: https://github.com/ipanardian/cekresi-cli')
 	})
-	.close();
+	.finally(function() {
+	    horseman.close()
+	    spinner.stop()
+	    return
+	});

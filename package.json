@@ -1,7 +1,7 @@
 {
   "name": "cekresi-cli",
-  "version": "1.0.4",
-  "description": "A command line app to check tracking number",
+  "version": "1.0.5",
+  "description": "A command line app to tracking AWB number",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,7 +21,7 @@
     "cli"
   ],
   "author": "Ipan Ardian",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ipanardian/cekresi-cli/issues"
   },
