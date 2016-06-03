@@ -32,6 +32,6 @@
     "tabletojson": "^0.4.0",
     "cli-table": "^0.3.1",
     "cli-spinner": "^0.2.5",
-    "colors": "^0.1.2",
+    "colors": "^0.1.2"
   }
 }
