@@ -1,6 +1,6 @@
 {
   "name": "cekresi-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A command line app to check tracking number",
   "main": "index.js",
   "scripts": {
