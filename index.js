@@ -21,7 +21,7 @@ var Table = require('cli-table');
 var colors = require('colors');
 var Spinner = require('cli-spinner').Spinner
 var param = process.argv[2];
-var spinner = new Spinner('Checking... %s');
+var spinner = new Spinner('Checking... %s ');
 spinner.setSpinnerString(7);
 spinner.start();
 
