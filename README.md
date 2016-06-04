@@ -12,7 +12,7 @@ A command line app to tracking AWB number
 ```
 $ cekresi-cli CGKC903017981616
 ```
-![cekresi-cli](https://cloud.githubusercontent.com/assets/415225/15799054/17625ac2-2a7a-11e6-8128-0fb8227a93f2.gif)
+![cekresi-cli](https://cloud.githubusercontent.com/assets/415225/15799222/314c99d4-2a7f-11e6-960a-310c33f09b98.gif)
 
 Note: Make sure PhantomJS is available in your path
 
