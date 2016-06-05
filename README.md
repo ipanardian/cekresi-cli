@@ -10,11 +10,11 @@ A command line app to tracking AWB number
 
 ## How to use
 ```
-$ cekresi-cli CGKC903017981616
+$ cekresi-cli AWB_NUMBER
 ```
 ![cekresi-cli](https://cloud.githubusercontent.com/assets/415225/15799222/314c99d4-2a7f-11e6-960a-310c33f09b98.gif)
 
-Note: Make sure PhantomJS is available in your path
+Note: Make sure PhantomJS is available in your PATH
 
 ## How to Install
 ```
@@ -39,6 +39,9 @@ npm install -g cekresi-cli
 * Nex Logistic
 * Lion Express
 * Pos Laju
+
+## Data Source
+Currently data source is from cekresi.com
 
 ## License
 The MIT License (MIT)
