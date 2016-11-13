@@ -4,7 +4,7 @@
 [![Node](https://img.shields.io/badge/node-v5.8.x-blue.svg)](https://gitter.im/ipanardian/cekresi-cli)
 [![npm](https://img.shields.io/npm/v/npm.svg?maxAge=2592000)]()
 [![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)](https://raw.githubusercontent.com/ipanardian/cekresi-cli/master/LICENSE)
-[![HitCount](https://hitt.herokuapp.com/ipanardian/cekresi-cli.svg)](https://github.com/ipanardian/cekresi-cli)
+[![npm](https://img.shields.io/npm/dt/cekresi-cli.svg)]()
 
 A command line app to tracking AWB number
 
@@ -39,9 +39,6 @@ npm install -g cekresi-cli
 * Nex Logistic
 * Lion Express
 * Pos Laju
-
-## Data Source
-Currently data source is from cekresi.com
 
 ## License
 The MIT License (MIT)
