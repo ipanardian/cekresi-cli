@@ -21,7 +21,7 @@ if (param == '--version') {
 	console.log(VERSION)
 	process.exit(-1)
 }
-else if (param.length < 10 || !param.match(/^[a-z0-9]+$/i)) {
+else if (param.length < 5 || !param.match(/^[a-z0-9]+$/i)) {
 	console.log('Invalid AWB Number')
 	process.exit(-1)
 }
