@@ -1,6 +1,6 @@
 {
   "name": "cekresi-cli",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A command line app to tracking AWB number",
   "main": "index.js",
   "scripts": {
