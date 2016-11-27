@@ -17,7 +17,7 @@ if (process.argv.length <= 2) {
 }
 
 var param = process.argv[2]
-if (param == '--version') {
+if (param == '--version' || param == '-v') {
 	console.log(VERSION)
 	process.exit(-1)
 }
