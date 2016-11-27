@@ -9,7 +9,7 @@
 */
 'use strict'
 
-const VERSION = 'v1.0.6'
+const VERSION = 'v1.0.7'
 
 if (process.argv.length <= 2) {
     console.log("Usage: cekresi-cli AWB_NUMBER")
@@ -17,7 +17,7 @@ if (process.argv.length <= 2) {
 }
 
 var param = process.argv[2]
-if (param == '--version') {
+if (param == '--version' || param == '-v') {
 	console.log(VERSION)
 	process.exit(-1)
 }
