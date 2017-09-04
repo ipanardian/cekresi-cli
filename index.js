@@ -33,6 +33,9 @@ var Table = require('cli-table')
 var colors = require('colors')
 var Spinner = require('cli-spinner').Spinner
 var spinner = new Spinner('Checking... %s ')
+
+const url  		= "http://cekresi.com/?v=759802634&e=jne&noresi="
+
 spinner.setSpinnerString(7)
 spinner.start()
 
@@ -45,8 +48,7 @@ var horseman = new Horseman()
 	.on('timeout', function(message) {
 		console.log('Timeout\n')
 	})
-	.open('http://cekresi.com/?noresi='+param)
-	.click("#cekresi")
+	.open(url+param)
 	.waitFor(function(selector) {
 		return $(selector).is(':visible')
 	}, '#results', true)
