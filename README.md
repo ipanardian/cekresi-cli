@@ -6,7 +6,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)](https://raw.githubusercontent.com/ipanardian/cekresi-cli/master/LICENSE)
 [![npm](https://img.shields.io/npm/dt/cekresi-cli.svg)]()
 
-A command line app to tracking AWB number
+A command line app for tracking AWB number
 
 ## How to use
 ```
