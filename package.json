@@ -27,12 +27,12 @@
   },
   "homepage": "https://github.com/ipanardian/cekresi-cli#readme",
   "dependencies": {
-    "cheerio": "^1.0.0",
-    "cli-spinner": "^0.2.5",
+    "cheerio": "^1.0.0-rc.10",
+    "cli-spinner": "^0.2.10",
     "cli-table": "^0.3.1",
     "colors": "^1.0.3",
-    "node-horseman": "^3.0.1",
-    "phantomjs": "^2.1.7",
+    "node-horseman": "^3.3.0",
+    "phantomjs-prebuilt": "^2.1.7",
     "tabletojson": "^0.4.0"
   }
 }
