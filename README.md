@@ -8,6 +8,8 @@
 
 A command line app for tracking AWB number
 
+### THIS PACKAGE IS OUTDATED NEED TO BE UPDATED
+
 ## How to use
 ```
 $ cekresi-cli AWB_NUMBER
